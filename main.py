@@ -9,7 +9,6 @@ for i in res:
         max1 = i
 print(max1)
 
-#2nd
 #1st
 res = []
 while -1 not in res:
@@ -46,6 +45,9 @@ print(perf)
 #6th
 q = int(input())
 for i in range(1, q+1):
+    if q >= 80:
+        print('слишком много')
+        break
     print(' '*(q-i), '*'*i)
 
 #7th
